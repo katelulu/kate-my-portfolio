@@ -1,0 +1,48 @@
+/* For Portfolio Section */
+
+.portfolio {
+  background: url(../Images/portfolio-bg1.jpeg) no-repeat center top fixed;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.portfolio .P-title h3 {
+  font-family: "Poiret One", "Montserrat", "Roboto";
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f1f1f1;
+  margin-bottom: 3rem;
+}
+.portfolio .P-title h3:hover {
+  color: #feab11;
+}
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+.portfolio-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.portfolio-item {
+  display: inline-block;
+  overflow: hidden;
+  width: 279px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-title {
+  margin-top: 1rem;
+  font-family: "Montserrat", "Roboto";
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+.portfolio-title:hover {
+  color: #feab11;
+}

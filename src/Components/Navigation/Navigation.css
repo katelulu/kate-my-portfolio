@@ -1,0 +1,36 @@
+.nav-container {
+  position: fixed !important;
+  width: 100%;
+  display: flex;
+  background: #474747;
+  border-bottom: 1px solid #fff;
+  height: 3rem;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.nav-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.nav-main > a {
+  color: #ece6e6d7 !important;
+  font-size: 1.3rem;
+  font-family: "Poiret One", "Montserrat", "Roboto";
+  letter-spacing: 2px;
+  line-height: 0;
+}
+
+.nav-main > a:hover {
+  color: #feab11 !important;
+}
+
+.nav-links {
+  display: flex !important;
+  align-items: end;
+}

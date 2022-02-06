@@ -1,0 +1,28 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+.heading > h3 {
+  font-family: "Poiret One", "Montserrat", "Roboto";
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.heading > p {
+  font-family: "Open Sans", "Roboto";
+  line-height: 40px;
+}
+
+.about-content {
+  margin-top: 40px;
+}
+.about-img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,46 @@
+/* For Home Section */
+
+.home-section {
+  background: url(../Images/header-bg1.jpeg) no-repeat center top fixed;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.home-details {
+  margin-top: 150px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.home-details .home-title h1 {
+  font-size: 60px;
+  font-family: "Montserrat", "Open Sans";
+  letter-spacing: 1px;
+  padding-top: 10%;
+}
+.home-details .home-title h1 span {
+  font-family: "Times New Roman", Times, serif;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.home-title > h1 > span:hover {
+  color: rgb(177, 36, 36);
+}
+
+@media (max-width: 499px) {
+  .home-details .home-title h1 {
+    font-size: 40px;
+    font-family: "Montserrat", "Open Sans";
+    letter-spacing: 1px;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 345px) {
+  .home-details .home-title h1 {
+    font-size: 25px;
+    font-family: "Montserrat", "Open Sans";
+    letter-spacing: 1px;
+    padding-top: 10%;
+  }
+}

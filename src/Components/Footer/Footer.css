@@ -1,0 +1,12 @@
+/* For Footer Section */
+
+.copyright {
+  border-top: 1px solid #bebebe;
+  padding: 30px 0;
+}
+.copyright p {
+  color: #bebebe;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
