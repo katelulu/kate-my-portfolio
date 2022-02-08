@@ -3,7 +3,7 @@ import React from "react"
 const PortfolioData = [
   {
     title: "Bespoke Fashion",
-    link: "https://github.com/Francine-Pepe/fashion-final-project/tree/main/fashion-final-project",
+    link: "https://bespokefashion.netlify.app/",
     img: "https://live.staticflickr.com/65535/51866227104_348ff0987f_m.jpg",
     cName: "portfolio-img ",
     text: "Group project made at WBS Coding School",

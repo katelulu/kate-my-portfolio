@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 .contact-text {
   font-family: "Poiret One", "Montserrat", "Roboto";
@@ -23,14 +23,26 @@
   background-size: cover;
   padding: 5% 20%;
 }
-.contact-email {
-  margin-top: 1rem;
-}
+
+.contact-name,
+.contact-email,
 .contact-massage {
   margin-top: 1rem;
 }
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-btn--active {
+  background-color: #5d86bc;
+}
+
+.contact-btnIcon {
+  margin-left: 1rem;
+}
 .SM-smBox {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .SM-Title {
   font-size: 25px;
@@ -52,15 +64,7 @@
   transition: 0.3s ease-in-out;
 }
 .SM-socialMedia > a:hover {
-  color: rgb(177, 36, 36);
+  color: #b12424;
   cursor: pointer;
   transform: scale(1.2);
 }
-
-/* For Contact Section 
-
-  color: #3b4258;
- * {
-  border: 1px solid pink;
-}
-  */

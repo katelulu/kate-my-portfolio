@@ -18,16 +18,22 @@ export default function Portfolio() {
 
         <div className="portfolio-wrapper">
           <Row className="portfolio-main">
-            {PortfolioData.map(({ title, link, img, cName }) => (
-              <Col className="portfolio-item" xs={12} md={6}>
-                <div className={cName}>
-                  <a href={link} className="portfolio-link">
-                    <img src={img} alt="Portfolio" />
-                  </a>
-                </div>
-                <h4 className="portfolio-title">{title}</h4>
-              </Col>
-            ))}
+            {PortfolioData.map((item, index) => {
+              const { title, link, img, cName } = item
+              return (
+                <Col className="portfolio-item" xs={12} md={6}>
+                  <div className={cName}>
+                    <a href={link} className="portfolio-link container">
+                      <img src={img} alt="Portfolio" className="P-image" />
+                      <div class="P-hMiddle">
+                        <div className="P-hText">CLICK TO SEE MORE</div>
+                      </div>
+                    </a>
+                  </div>
+                  <h4 className="portfolio-title">{title}</h4>
+                </Col>
+              )
+            })}
           </Row>
           <div className="scroll-down">
             <a href="#contact">
