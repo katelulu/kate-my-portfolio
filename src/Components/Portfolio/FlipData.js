@@ -1,33 +1,45 @@
 import React from "react"
 
-const PortfolioData = [
+const FlipData = [
   {
+    id: "1",
     title: "Bespoke Fashion",
-    link: "https://bespokefashion.netlify.app/",
     img: "https://live.staticflickr.com/65535/51866227104_348ff0987f_m.jpg",
-    cName: "portfolio-img ",
+    link: "https://bespokefashion.netlify.app/",
+    code: "https://github.com/Francine-Pepe/bespokefashion",
+    base: "React, JavaScript, CSS, HTML",
     text: "Group project made at WBS Coding School",
+    cName: "portfolio-flipCard ",
   },
   {
+    id: "2",
     title: "Photopedia",
-    link: "https://github.com/TheCodingBrie/Photopedia",
     img: "https://live.staticflickr.com/65535/51866560175_4c3e988ec8_m.jpg",
-    cName: "portfolio-img",
+    link: "",
+    code: "https://github.com/TheCodingBrie/Photopedia",
+    base: "",
     text: "Group project made at WBS Coding School",
+    cName: "portfolio-flipCard ",
   },
   {
+    id: "3",
     title: "Healthy Life",
-    link: "https://github.com/jennyy89/healthylife",
     img: "https://live.staticflickr.com/65535/51864939922_19534d416b_m.jpg",
-    cName: "portfolio-img",
+    link: "",
+    code: "https://github.com/jennyy89/healthylife",
+    base: "",
     text: "Group project made at WBS Coding School",
+    cName: "portfolio-flipCard ",
   },
   {
+    id: "4",
     title: "Color Cakes",
-    link: "https://github.com/KaisBeard/colorful-cakes",
-    img: "https://live.staticflickr.com/65535/51865986208_7766084093_m.jpg",
-    cName: "portfolio-img",
+    img: "https://live.staticflickr.com/65535/51889951079_092afd3bb7_m.jpg",
+    link: "",
+    code: "https://github.com/KaisBeard/colorful-cakes",
+    base: " JavaScript, CSS, HTML",
     text: "Group project made at WBS Coding School",
+    cName: "portfolio-flipCard ",
   },
   /* {
     title: "Todo List",
@@ -38,4 +50,4 @@ const PortfolioData = [
   },*/
 ]
 
-export default PortfolioData
+export default FlipData
