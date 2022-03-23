@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="contact-container">
-      <h5 className="contact-text">Want to contact me?</h5>
+      <h3 className="contact-text">Want to contact me?</h3>
       <Form
         id="myForm"
         className="contact-form"
@@ -85,7 +85,7 @@ export default function Contact() {
         </Button>
       </Form>
       <div className="SM-smBox">
-        <h4 className="SM-Title">SOCIAL MEDIA:</h4>
+        <h3 className="SM-Title">SOCIAL MEDIA:</h3>
         <div className="SM-socialMedia">
           <a href="https://github.com/katelulu">
             <Icon icon="fa-brands:github" />

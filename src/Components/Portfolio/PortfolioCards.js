@@ -31,19 +31,26 @@ export default function Portfolio() {
                         <h1>{item.title}</h1>
                         <ul>
                           <li>
-                            <strong>Visit:</strong>
-                            <a href={link} className="portfolio-link container">
-                              website
-                            </a>
+                            <button className="visitButton">
+                              <a
+                                href={link}
+                                className="portfolio-link container"
+                              >
+                                VISIT
+                              </a>
+                            </button>
                           </li>
                           <li>
-                            <strong>Code:</strong>
-                            <a href={code} className="portfolio-link container">
-                              GitHub
-                            </a>
+                            <button className="visitButton">
+                              <a
+                                href={code}
+                                className="portfolio-link container"
+                              >
+                                CODE
+                              </a>
+                            </button>
                           </li>
                           <li>{item.base}</li>
-                          <li>{item.text}</li>
                         </ul>
                       </div>
                     </div>
