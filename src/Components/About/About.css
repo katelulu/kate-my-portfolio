@@ -15,11 +15,6 @@
   margin-bottom: 1rem;
 }
 
-.heading > p {
-  font-family: "Open Sans", "Roboto";
-  line-height: 40px;
-}
-
 .about-content {
   margin-top: 40px;
 }
@@ -45,4 +40,48 @@
 }
 .about-text {
   color: #ece6e6d7;
+}
+
+@media (min-width: 1050px) {
+  .about-text2 {
+    display: none;
+  }
+}
+@media (min-width: 833px) and (max-width: 1050px) {
+  .about-text {
+    font-size: 15px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .about-text2 {
+    display: none;
+  }
+}
+@media (min-width: 705px) and (max-width: 833px) {
+  .about-text {
+    font-size: 12px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .about-text2 {
+    display: none;
+  }
+}
+
+@media (max-width: 704px) {
+  .about-text {
+    display: none;
+  }
+  .about-textBox {
+    display: none;
+  }
+  .about-text2 {
+    width: fit-content;
+    margin: 2rem;
+    background-color: #3b4258;
+    opacity: 0.9;
+    color: #ece6e6d7;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
 }

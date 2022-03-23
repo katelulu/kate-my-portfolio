@@ -19,6 +19,9 @@ export default function Navigation() {
           <Nav.Link href="#portfolio" className="nav-links">
             PORTFOLIO
           </Nav.Link>
+          <Nav.Link href="#skills" className="nav-links">
+            SKILLS
+          </Nav.Link>
           <Nav.Link href="#contact" className="nav-links">
             CONTACT
           </Nav.Link>

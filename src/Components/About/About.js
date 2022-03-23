@@ -23,11 +23,18 @@ export default function AboutMe() {
               <img src={laptop} alt="About" className="about-img2" />
               <Carousel.Caption className="about-textBox">
                 <p className="about-text">
-                  Hi! I'm Katarzyna, Junior Frontend Developer. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat.
+                  Hey! I'm Kate, Junior Frontend Developer.
+                  <br /> I am a girl who loves to learn new and interesting
+                  skills. For many years I have worked with people
+                  <br /> as a psychologist. For several years, I managed a
+                  psychological practice and organized trainings. <br />
+                  After moving to Germany, I decided to take a risk and change
+                  my life, test myself with something that has fascinated me for
+                  a long time. I recently graduated from Fullstack Web and App
+                  Developer Bootcamp organized by WBS Coding School in Berlin.
+                  <br />
+                  Because of my love for beauty and design, I am Front End
+                  oriented.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -35,13 +42,40 @@ export default function AboutMe() {
               <img src={office} alt="About" className="about-img2" />
               <Carousel.Caption className="about-textBox">
                 <p className="about-text">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
+                  I like order, simplicity and friendly communication with other
+                  people. <br /> Privately, I like to travel. I collect memories
+                  from each place in the form of photos.
+                  <br /> Good music and detective stories inspire me, and just
+                  like in the latter,
+                  <br /> I am always eager to discover the right solutions to
+                  various problems.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
+      </Row>
+      <Row className="about-text2">
+        <p>
+          Hey! I'm Kate, Junior Frontend Developer.
+          <br /> I am a girl who loves to learn new and interesting skills. For
+          many years I have worked with people
+          <br /> as a psychologist. For several years, I managed a psychological
+          practice and organized trainings. <br />
+          After moving to Germany, I decided to take a risk and change my life,
+          test myself with something that has fascinated me for a long time. I
+          recently graduated from Fullstack Web and App Developer Bootcamp
+          organized by WBS Coding School in Berlin.
+          <br />
+          Because of my love for beauty and design, I am Front End oriented.
+          <br />I like order, simplicity and friendly communication with other
+          people. <br /> Privately, I like to travel. I collect memories from
+          each place in the form of photos.
+          <br /> Good music and detective stories inspire me, and just like in
+          the latter,
+          <br /> I am always eager to discover the right solutions to various
+          problems.
+        </p>
       </Row>
 
       <div className="scroll-down">
