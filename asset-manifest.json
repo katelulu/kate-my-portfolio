@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lukoszek-katarzyna/static/css/main.7dca7b18.css",
-    "main.js": "/lukoszek-katarzyna/static/js/main.3c9a428f.js",
+    "main.css": "/lukoszek-katarzyna/static/css/main.252e4bb4.css",
+    "main.js": "/lukoszek-katarzyna/static/js/main.f6ea8995.js",
     "static/media/Bubbling.gif": "/lukoszek-katarzyna/static/media/Bubbling.85b8604e708a1e17fee0.gif",
     "static/media/portfolio-bg1.jpeg": "/lukoszek-katarzyna/static/media/portfolio-bg1.a247b0dd3bd2b9361920.jpeg",
     "static/media/about.jpg": "/lukoszek-katarzyna/static/media/about.a4728859398bb2400306.jpg",
@@ -10,11 +10,11 @@
     "static/media/laptop.jpg": "/lukoszek-katarzyna/static/media/laptop.a6d07753cf29f3ff1fdb.jpg",
     "static/media/office.jpg": "/lukoszek-katarzyna/static/media/office.2acb636ee02aad5739f8.jpg",
     "index.html": "/lukoszek-katarzyna/index.html",
-    "main.7dca7b18.css.map": "/lukoszek-katarzyna/static/css/main.7dca7b18.css.map",
-    "main.3c9a428f.js.map": "/lukoszek-katarzyna/static/js/main.3c9a428f.js.map"
+    "main.252e4bb4.css.map": "/lukoszek-katarzyna/static/css/main.252e4bb4.css.map",
+    "main.f6ea8995.js.map": "/lukoszek-katarzyna/static/js/main.f6ea8995.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dca7b18.css",
-    "static/js/main.3c9a428f.js"
+    "static/css/main.252e4bb4.css",
+    "static/js/main.f6ea8995.js"
   ]
 }
