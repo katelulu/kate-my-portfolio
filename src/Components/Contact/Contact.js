@@ -75,11 +75,7 @@ export default function Contact() {
             required
           />
         </Form.Group>
-        <Button
-          variant="outline-secondary"
-          type="submit"
-          className="contact-btn"
-        >
+        <Button variant="secondary" type="submit" className="contact-btn">
           Send Message
           <Icon icon="fa-brands:telegram-plane" className="contact-btnIcon" />
         </Button>

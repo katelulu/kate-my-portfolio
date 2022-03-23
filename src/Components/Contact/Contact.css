@@ -33,6 +33,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 25px;
+  margin-top: 0.5rem;
 }
 .contact-btn--active {
   background-color: #5d86bc;

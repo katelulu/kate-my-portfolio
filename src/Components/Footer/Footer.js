@@ -6,7 +6,7 @@ export default function Footer() {
     <footer id="footer" className="footer">
       <div className="container">
         <div className="copyright text-center">
-          <p> 2021 - All rights reserved.</p>
+          <p> 2022 - All rights reserved.</p>
         </div>
       </div>
     </footer>
